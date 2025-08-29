@@ -18,7 +18,7 @@ connectDB
 });
 
 app.use(cors({
-  origin:['http://localhost:5173'],
+  origin:['http://localhost:5173','https://lbms-frontend-five.vercel.app/'],
   credentials: true
 }));
 
